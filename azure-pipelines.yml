@@ -24,7 +24,7 @@ steps:
     npm install cucumber-pretty --save-dev
     npm install faker --save-dev
     npm install mkdirp --save-dev
-    npm install nightwatch-api --save-dev
+    npm i nightwatch-api
     npm install cucumber-expressions --save-dev
     npm install nightwatch-cucumber-editor --save-dev
     npm test
