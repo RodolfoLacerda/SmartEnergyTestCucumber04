@@ -16,11 +16,16 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    npm install nightwatch --save-dev
-    npm install mkdirp --save-dev
-    npm install cucumber --save-dev
-    npm install nightwatch-api --save-dev
-    npm test
+   npm install
+   npm install nightwatch --save-dev
+   npm install chromedriver --save-dev
+   npm install cucumber --save-dev
+   npm install cucumber-html-reporter --save-dev
+   npm install cucumber-pretty --save-dev
+   npm install faker --save-dev
+   npm install mkdirp --save-dev
+   npm install nightwatch-api --save-dev
+   npm install cucumber-expressions --save-dev
+   npm install nightwatch-cucumber-editor --save-dev
     
   displayName: 'npm install and build'
