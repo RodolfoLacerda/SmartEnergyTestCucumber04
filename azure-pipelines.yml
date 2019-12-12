@@ -18,5 +18,6 @@ steps:
 - script: |
     npm install
     npm install nightwatch --save-dev
+    npm install mkdirp --save-dev
     npm run -- test features/Globo.feature
   displayName: 'npm install and build'
