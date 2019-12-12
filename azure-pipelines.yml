@@ -21,5 +21,6 @@ steps:
     npm install mkdirp --save-dev
     npm install cucumber --save-dev
     npm install nightwatch-api --save-dev
+    npm test
     
   displayName: 'npm install and build'
