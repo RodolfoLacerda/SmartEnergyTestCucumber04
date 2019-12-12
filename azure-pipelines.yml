@@ -27,5 +27,5 @@ steps:
    npm install nightwatch-api --save-dev
    npm install cucumber-expressions --save-dev
    npm install nightwatch-cucumber-editor --save-dev
-    
+   npm test
   displayName: 'npm install and build'
